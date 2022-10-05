@@ -200,25 +200,25 @@ textarea {
 	color: #474544;
 }
 
-.change {
-  background: none;
-  border: solid 2px #474544;
-  color: #474544;
-  cursor: pointer;
-  display: inline-block;
-  font-family: 'Helvetica', Arial, sans-serif;
-  font-size: 0.875em;
-  font-weight: bold;
-  outline: none;
-  padding: 20px 35px;
-  text-transform: uppercase;
-  -webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-	
-
+.exampleback{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 200px;
+    background: url(https://csshtml.work/wp-content/uploads/cat.jpg) no-repeat center center / cover;
+}
+.example{
+    display: block;
+    width: 200px;
+    background: #1973cc;
+    border: 2px solid #FFF;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 120%;
+    font-weight: bold;
+}
 .change:hover {
   background: #474544;
   color: #F2F3EB;
@@ -316,8 +316,8 @@ textarea {
             <textarea name="entry.478708039" placeholder="コメント内容" id="message_input" cols="30" rows="5" required></textarea>
           </div>
 	
-	<div class="change">
-	<button type="button" onclick="location.href='https://keycodejapan.github.io/Typ/'">投稿内容を修正する</button>
+	<div class="exampleback">
+    	     <a class="example" href="https://keycodejapan.github.io/Typ/"></a>
 	</div>
 
           <div class="submit">
