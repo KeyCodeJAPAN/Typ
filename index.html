@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Two-RSA</title>
+    <title>友愛ボード投稿ポスト</title>
 
 <style>
     @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
@@ -80,80 +81,81 @@ h1 {
   margin: 0 auto;
   width: 50px;
 }
+
 .email {
-	float: right;
-	width: 45%;
+    float: right;
+    width: 45%;
 }
 
 input[type='text'], [type='email'], select, textarea {
-	background: none;
+    background: none;
   border: none;
-	border-bottom: solid 2px #474544;
-	color: #474544;
-	font-size: 1.000em;
+    border-bottom: solid 2px #474544;
+    color: #474544;
+    font-size: 1.000em;
   font-weight: 400;
   letter-spacing: 1px;
-	margin: 0em 0 1.875em 0;
-	padding: 0 0 0.875em 0;
+    margin: 0em 0 1.875em 0;
+    padding: 0 0 0.875em 0;
   text-transform: uppercase;
-	width: 100%;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	-o-box-sizing: border-box;
-	box-sizing: border-box;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 input[type='text']:focus, [type='email']:focus, textarea:focus {
-	outline: none;
-	padding: 0 0 0.875em 0;
+    outline: none;
+    padding: 0 0 0.875em 0;
 }
 .real {
-	float: right;
-	width: 45%;
+    float: right;
+    width: 45%;
 }
 
 input[type='text'], [type='real'], select, textarea {
-	background: none;
+    background: none;
   border: none;
-	border-bottom: solid 2px #474544;
-	color: #474544;
-	font-size: 1.000em;
+    border-bottom: solid 2px #474544;
+    color: #474544;
+    font-size: 1.000em;
   font-weight: 400;
   letter-spacing: 1px;
-	margin: 0em 0 1.875em 0;
-	padding: 0 0 0.875em 0;
+    margin: 0em 0 1.875em 0;
+    padding: 0 0 0.875em 0;
   text-transform: uppercase;
-	width: 100%;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	-o-box-sizing: border-box;
-	box-sizing: border-box;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 input[type='text']:focus, [type='real']:focus, textarea:focus {
-	outline: none;
-	padding: 0 0 0.875em 0;
+    outline: none;
+    padding: 0 0 0.875em 0;
 }
 
 .message {
-	float: none;
+    float: none;
 }
 
 .name {
-	float: left;
-	width: 45%;
+    float: left;
+    width: 45%;
 }
 
 select {
@@ -176,55 +178,31 @@ select::-ms-expand {
 }
 
 textarea {
-	line-height: 150%;
-	height: 150px;
-	resize: none;
+    line-height: 150%;
+    height: 150px;
+    resize: none;
   width: 100%;
 }
 
 ::-webkit-input-placeholder {
-	color: #474544;
+    color: #474544;
 }
 
 :-moz-placeholder { 
-	color: #474544;
-	opacity: 1;
+    color: #474544;
+    opacity: 1;
 }
 
 ::-moz-placeholder {
-	color: #474544;
-	opacity: 1;
+    color: #474544;
+    opacity: 1;
 }
 
 :-ms-input-placeholder {
-	color: #474544;
-}
-
-
-.example{
-    float:right;
-    margin-right:560px;
-    display: block;
-    width: 200px;
-    background: transparent;
-    border: 2px solid #474544;
-    font-family: 'Helvetica', Arial, sans-serif;
-    font-size: 0.875em;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
     color: #474544;
-    font-size: 120%;
-    font-weight: bold;
-}
-.example:hover {
-  background: #474544;
-  color: #F2F3EB;
 }
 
 #form_button {
-  float:left;
-  margin-left:570px;
   background: none;
   border: solid 2px #474544;
   color: #474544;
@@ -237,10 +215,10 @@ textarea {
   padding: 20px 35px;
   text-transform: uppercase;
   -webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 #form_button:hover {
@@ -293,7 +271,7 @@ textarea {
 <body>
 
     <div id="container">
-        <h1>&bull;友愛ボード投稿ポスト &bull;</h1>
+        <h1>&bull;Two-RSA回答 &bull;</h1>
         <div class="underline">
         </div>
         <div class="icon_wrapper">
@@ -302,20 +280,26 @@ textarea {
             <path d="M70.865,101.78c0,4.774,3.886,8.657,8.66,8.657c4.774,0,8.657-3.883,8.657-8.657c0-4.773-3.883-8.656-8.657-8.656    C74.751,93.124,70.865,97.006,70.865,101.78z"></path>
           </svg>
         </div>
-        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfKFPzY-iY9-MxAMZye0dDujvKgGNyvlgj11TN2KPZR4VYjow/formResponse">
+        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfKFPzY-iY9-MxAMZye0dDujvKgGNyvlgj11TN2KPZR4VYjow/formResponse" method="post" id="contact_form">
           <div class="name">
 
             <label for="name"></label>
-            <input type="text" placeholder="本名と年組番号" name="entry.1827015928" id="name_input" required>
-          </div
+            <input type="text" placeholder="本名" name="entry.1827015928" id="name_input" required>
+          </div>
+
+        
+          <div class="real">
+            <label for="real"></label>
+            <input type="real" placeholder="年組番号" name="entry.1499215612" id="real_input" required>
+          </div>
 
 
           
           <div class="message">
             <label for="message"></label>
-           <input type="text" placeholder="(1)と(2)、それぞれの答え" name="entry.1688891868" id="name_input" required>
+            <textarea name="entry.1688891868" placeholder="(1)と(2)の答え" id="message_input" cols="30" rows="5" required></textarea>
           </div>
-	
+
 
           <div class="submit">
             <input type="submit" value="送信" id="form_button" />
